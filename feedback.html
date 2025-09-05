@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback - ML Support</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logoml.png" alt="ML Support Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="hospitals.html">Our Hospitals</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="feedback.html" class="active">Feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Feedback Section -->
+  <section class="feedback-section">
+    <h1>What Our Users Say</h1>
+
+    <div class="slider" id="slider">
+      <div class="track" id="track">
+
+        <div class="slide">
+          <img src="user1.jpeg" alt="User 1" class="user-img">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"ML Support changed my life — 24/7 doctors are just one call away!"</p>
+          <h4>- Ramesh Kumar</h4>
+        </div>
+
+        <div class="slide">
+          <img src="user2.jpg" alt="User 2" class="user-img">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Very professional service and trusted medical support for my family."</p>
+          <h4>- Rohan Sharma</h4>
+        </div>
+
+        <div class="slide">
+          <img src="user3.jpg" alt="User 3" class="user-img">
+          <div class="stars">⭐⭐⭐⭐</div>
+          <p>"Quick, reliable and an amazing support team. Highly recommended!"</p>
+          <h4>- Aman Verma</h4>
+        </div>
+
+      </div>
+
+      <!-- Arrows -->
+      <div class="arrow prev" id="prev">&#10094;</div>
+      <div class="arrow next" id="next">&#10095;</div>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+  </section>
+
+  <script src="feedback.js"></script>
+</body>
+</html>
